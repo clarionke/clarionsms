@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="author" content="">
+  <meta name="description" content="">
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BongaTech - Short Code</title>
+
+  <!--Favicon-->
+  <link rel="icon" type='image/x-icon' href="/favicon.ico">
+  <link rel="apple-touch-icon" sizes="152x152" href="/assets/images/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon/favicon-16x16.png">
+  <link rel="manifest" href="/assets/images/favicon/site.webmanifest">
+  <link rel="mask-icon" href="/assets/images/favicon/safari-pinned-tab.svg" color="#d6040b">
+  <link rel="shortcut icon" href="/assets/images/favicon/favicon.ico">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-config" content="/assets/images/favicon/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+
+  <!--Stylesheet-->
+  <link rel="stylesheet" href="assets/css/stylesheet-main.css">
+  <link rel="stylesheet" href="assets/css/default-stylesheet.css">
+  <link rel="stylesheet" href="assets/css/pink-color.css">
+  <link rel="stylesheet" href="assets/css/scroll.css">
+  <link rel="stylesheet" href="assets/css/services-style.css">
+
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&amp;display=swap"
+    rel="stylesheet">
+
+  <!--Font Awesome-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+    integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+
+  <!-- <style type="text/css">
+    /* Set the size of the div element that contains the map */
+    #map {
+      height: 520px;
+      /* The height is 400 pixels */
+      width: 100%;
+      /* The width is the width of the web page */
+    }
+  </style> -->
+
+  <!--Theme Color Settings-->
+  <style>
+    :root {
+      --hero-bg-color: #ffffff;
+      --section-1-bg-color: #eeeeee;
+      --section-2-bg-color: #f5f5f5;
+      --section-3-bg-color: #eeeeee;
+      --section-4-bg-color: #f5f5f5;
+      --section-5-bg-color: #eeeeee;
+      --section-6-bg-color: #f5f5f5;
+      --section-7-bg-color: #eeeeee;
+      --section-8-bg-color: #f5f5f5;
+      --section-9-bg-color: #eeeeee;
+      --section-10-bg-color: #f5f5f5;
+      --section-11-bg-color: #eeeeee;
+      --footer-bg-color: #000000;
+    }
+
+    .scrolldown-wrapper {
+      display: none;
+    }
+  </style>
+
+
+  <!--Cookie Concent style-->
+  <link rel="stylesheet" type="text/css" href="assets/css/cookieconcent.css" />
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header>
+    <!-- Navbar -->
+    <nav data-aos="zoom-out" data-aos-delay="800" class="navbar navbar-expand">
+      <div class="container header">
+
+        <!-- Navbar Brand-->
+        <a href="index.html">
+          <img src="assets/images/hireslogo.png" alt="BongaTech" class="navbar-brand" style="width: 120px;">'
+        </a>
+        <!-- <a class="navbar-brand" href="index.html" style="font-weight: 700;"></a> -->
+
+        <!-- Navbar Items -->
+        <ul class="navbar-nav items ml-auto">
+
+          <li class="nav-item"><a href="#slider" class="nav-link smooth-anchor">Home</a></li>
+
+          <li class="nav-item"><a href="#" onclick="parent.location='http://bulk.bongatech.com'; return false;"
+              class="nav-link smooth-anchor">Send Bulk SMS</a></li>
+
+          <li class="nav-item dropdown"><a href="#services" class="nav-link active">Understand Our Services<i
+                class="icon-arrow-down"></i></a>
+            <ul class="dropdown-menu">
+
+              <li class="nav-item dropdown"> <a class="nav-link" href="bulk-sms.html"> Bulk SMS <i
+                    class="far fa-comment-dots"></i></a></li>
+              <li class="nav-item dropdown"> <a class="nav-link" href="mpesa-integration.html"> M-Pesa Integration<i
+                    class="icon-credit-card"></i></a> </li>
+              <li class="nav-item dropdown"> <a class="nav-link" href="short-code.html">Short Codes <i
+                    class="fas fa-list-ol"></i></a></li>
+              <li class="nav-item dropdown"> <a class="nav-link" href="whatsapp-business.html">Whatsspp Business<i
+                    class="fab fa-whatsapp"></i></a>
+              </li>
+              <li class="nav-item dropdown"> <a class="nav-link" href="ussd.html">USSD<i
+                    class="icon-screen-smartphone"></i></a>
+              </li>
+              <li class="nav-item dropdown"> <a class="nav-link" href="#" data-toggle="modal" data-target="#modalSurvey"
+                  onclick="scrollMagic()">Surveys<i class="icon-notebook"></i></a></li>
+
+              <li class="nav-item dropdown"> <a class="nav-link" href="#" data-toggle="modal"
+                  data-target="#modalLoyaltyPrograms" onclick="scrollMagic()">Loyalty Programs<i
+                    class="icon-badge"></i></a>
+              </li>
+
+            </ul>
+          </li>
+          <li class="nav-item"><a href="#" data-toggle="modal" data-target="#modalDownloads"
+              class="nav-link smooth-anchor">Downloads</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link smooth-anchor">About Us</a></li>
+        </ul>
+        <ul class="navbar-nav action">
+          <li class="nav-item ml-3"><a href="#contact" class="smooth-anchor btn ml-lg-auto primary-button">Contact Us<i
+                class="icon-phone"></i></a></li>
+        </ul>
+
+        <!-- Navbar Toggle -->
+        <ul class="navbar-nav toggle">
+          <li class="nav-item"><a href="#" class="nav-link" data-toggle="modal" data-target="#menu"><i
+                class="icon-menu m-0"></i></a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+
+  <!-- Bulk SMS section-->
+  <section id="services" style="background: var(--hero-bg-color);">
+    <div class="container">
+      <div class="text-center intro">
+        <div class="col-12 text-md-center services-header">
+          <h2>Short Code</h2>
+          <p class="text-max-800">Send a two-way message to your
+            clients through our unique short code application.</p>
+
+          <br>
+
+          <div class="page-navigation">
+            <span class="sub-item-title">Navigate: <a href="">Services</a></span> /
+            <span class="sub-item-title"><a href=""> Short Code</a></span>
+          </div>
+        </div>
+      </div>
+
+      <hr>
+
+      <!--Start Services content-->
+
+      <div class="row content">
+        <div class="col-12 col-lg-8 p-0">
+          <div class="row">
+            <div class="col-12 align-self-center">
+
+              <h3 class="featured mt-0">What is short code?</h3>
+
+              <p>An SMS short code is a 5 or 6-digit phone number that is used by businesses to send
+                and receive text messages at scale. People opt into SMS marketing programs by
+                texting a word or phrase known as a &quot;keyword&quot; to a short code. They are specifically
+                meant to be shorter than normal phone numbers to make the opt in process easier.</p>
+
+
+              <p>Additionally, short codes are capable of sending extremely high volumes of text
+                messages in a short period of time. This makes them the optimal choice when looking
+                to reach large amounts of people.</p>
+
+              <blockquote>SMS communication is an effective and impersonal way to
+                reach out to anybody without using voice based
+                communication to communicate a message.
+              </blockquote>
+
+
+              <p>The acceptance of SMS as an effective means is now proven with all Telecom Service
+                Providers making this an essential service, using similar concepts across industries
+                such as Healthcare, Banking, Payments, Retail, Restaurants, Insurance Sports, Event
+                Management and Marketing.</p>
+
+              <h3 class="featured mt-0">Types</h3>
+
+              <p>There are two different types of SMS short codes i.e. shared and dedicated codes. They
+                are further summarized below:</p>
+
+              <div class="margin-setter">
+
+                <div class="row">
+                  <div class="headline col-sm-5 col-md-5 col-lg-5">
+                    <h4>Shared Short Codes</h4>
+                  </div>
+                  <div class="content col-sm-7 col-md-7 col-lg-7">
+                    Shared codes are simply any SMS short code
+                    that multiple businesses or brands use.
+                    Organizations normally share short codes
+                    because of their cost.
+                  </div>
+                </div>
+
+                <hr class="content col-sm-12 col-md-12 col-lg-12" style="border: 1px solid; width: initial;">
+
+
+                <div class="row">
+                  <div class="headline col-sm-5 col-md-5 col-lg-5">
+                    <h4>Dedicated Short Codes</h4>
+                  </div>
+                  <div class="content col-sm-7 col-md-7 col-lg-7">
+                    Dedicated codes are ones that are used only
+                    by a single business or brand.
+                  </div>
+                </div>
+
+              </div>
+
+
+            </div>
+          </div>
+        </div>
+
+        <aside class="col-12 col-lg-4 pl-lg-4 float-right sidebar">
+
+          <!-- Categories -->
+          <div class="utf-sidebar-widget-item">
+            <h4>Other services</h4>
+            <ul class="list-group list-group-flush">
+              <!-- <li class="list-group-item d-flex justify-content-between align-items-center"> <a href="">Short code</a>
+              </li> -->
+              <li class="list-group-item d-flex justify-content-between align-items-center"> <a
+                  href="mpesa-integration.html">M-pesa Integration</a></li>
+              <li class="list-group-item d-flex justify-content-between align-items-center"> <a href="ussd.html">USSD
+                  Integration</a> </li>
+              <li class="list-group-item d-flex justify-content-between align-items-center"> <a
+                  href="whatsapp-business.html">WhatsApp Business</a>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-center"> <a
+                  href="bulk-sms.html">Bulk SMS</a>
+              </li>
+            </ul>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing -->
+  <section id="pricing" class="plans featured left utf-plan-item-list">
+    <div class="container">
+      <div class="row text-center intro">
+        <div class="col-12">
+          <span class="sub-item-title">Plans</span>
+          <h2>Financial Proposal</h2>
+          <p class="text-max-800">Here is the financial plan for the service</p>
+        </div>
+      </div>
+      <div class="row justify-content-center text-center items">
+        <div class="col-12 col-lg-6 col-sm-6 col-xs-12 text-center item">
+          <div class="card">
+            <h4>Item No. 1</h4>
+            <p>Monthly fee</p>
+            <span class="price">KES 15,000<i> as Rate</i></span>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item d-flex justify-content-between align-items-center text-center"><strong>Total
+                  Cost: KES 15,000</strong>
+              </li>
+            </ul>
+            <a "index.html#features" onclick="window.location.href='index.html#features'" class="smooth-anchor btn mx-auto primary-button">Lipa Na M-Pesa<i
+                class="icon-basket"></i></a>
+          </div>
+        </div>
+
+        <div class="col-12 col-lg-6 col-sm-6 col-xs-12 text-center item">
+          <div class="card">
+            <h4>Item No. 2</h4>
+            <p>Set up and configuration (one off)</p>
+            <span class="price">KES 10,000<i> as rate</i></span>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item d-flex justify-content-between align-items-center text-center"><strong>Total
+                  Cost: KES 10,000</strong>
+              </li>
+            </ul>
+            <a "index.html#features" onclick="window.location.href='index.html#features'" class="smooth-anchor btn mx-auto primary-button">Lipa Na M-Pesa<i
+                class="icon-basket"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+ <!-- Footer Section -->
+ <footer>
+  <section id="footer" class="odd footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-lg-3 col-sm-12 col-xs-12 p-3 text-lg-left">
+          <h4>This is BongaTech</h4>
+          <p>What you see and what you get is a user friendly, no-frills service, but behind it
+            is a complex platform tuned to specific client needs.</p>
+          <!-- <ul class="navbar-nav social share-list mt-0 ml-auto">
+            <li class="nav-item"><a href="#" class="nav-link"><i class="icon-social-facebook"></i></a></li>
+            <li class="nav-item"><a href="#" class="nav-link"><i class="icon-social-linkedin"></i></a></li>
+            <li class="nav-item"><a href="#" class="nav-link"><i class="icon-social-twitter"></i></a></li>
+            <li class="nav-item"><a href="#" class="nav-link"><i class="icon-social-instagram"></i></a></li>
+            <li class="nav-item"><a href="#" class="nav-link"><i class="icon-social-skype"></i></a></li>
+          </ul> -->
+        </div>
+        <div class="col-12 col-lg-2 col-sm-6 col-xs-6 p-3 text-left">
+          <h4>Useful Links</h4>
+          <ul class="navbar-nav fb-nav-link">
+            <li class="nav-item"><a href="#about" class="nav-link"><i class="fa fa-arrow-right"></i> About Us</a></li>
+            <li class="nav-item"><a href="#contact" class="nav-link"><i class="fa fa-arrow-right"></i> Contact Us</a>
+            </li>
+            <li class="nav-item"><a href="#services" class="nav-link"><i class="fa fa-arrow-right"></i> Our
+                Services</a></li>
+            <!-- <li class="nav-item"><a href="#" class="nav-link"><i class="fa fa-arrow-right"></i> Terms and
+                Conditions</a>
+            </li>
+            <li class="nav-item"><a href="#" class="nav-link"><i class="fa fa-arrow-right"></i> Privacy Policy</a></li> -->
+          </ul>
+        </div>
+        <div class="col-12 col-lg-2 col-sm-6 col-xs-6 p-3 text-left">
+          <h4>Our Service</h4>
+          <ul class="navbar-nav fb-nav-link">
+            <li class="nav-item"><a href="bulk-sms.html" class="nav-link"><i class="fa fa-arrow-right"></i> Bulk
+                SMS</a></li>
+            <li class="nav-item"><a href="mpesa-integration.html" class="nav-link"><i class="fa fa-arrow-right"></i>
+                M-Pesa Integration</a>
+            </li>
+            <li class="nav-item"><a href="mpesa-integration.html" class="nav-link"><i class="fa fa-arrow-right"></i>
+                Bulk Payments</a></li>
+            <li class="nav-item"><a href="short-code.html" class="nav-link"><i class="fa fa-arrow-right"></i> Short
+                Codes</a></li>
+            <!-- <li class="nav-item"><a href="" class="nav-link"><i class="fa fa-arrow-right"></i> SMS Integration</a>
+            </li> -->
+            <li class="nav-item"><a href="ussd.html" class="nav-link"><i class="fa fa-arrow-right"></i> USSD</a></li>
+            <!-- <li class="nav-item"><a href="#" class="nav-link"><i class="fa fa-arrow-right"></i> Surveys</a></li>
+            <li class="nav-item"><a href="#" class="nav-link"><i class="fa fa-arrow-right"></i> Loyalty Programs</a>
+            </li> -->
+          </ul>
+        </div>
+        <div class="col-12 col-lg-3 col-sm-6 col-xs-6 p-3 text-left">
+          <h4>Contact Us</h4>
+          <ul class="navbar-nav fb-contact-info">
+            <li class="nav-item"><a href="#" class="nav-link"><i class="icon-call-in mr-2"></i> +254 724 119360</a>
+            </li>
+            <li class="nav-item"><a href="#" class="nav-link"><i class="icon-envelope-open mr-2"></i>
+                info@bongatech.co.ke
+              </a></li>
+            <li class="nav-item"><a href="#" class="nav-link"><i class="icon-globe mr-2"></i> www.bongatech.co.ke</a>
+            </li>
+            <li class="nav-item"><a href="#" class="nav-link"><i class="icon-location-pin mr-2"></i> Haven Court,
+                Block C, 1st Floor,
+                Westlands, Nairobi Kenya.</a></li>
+          </ul>
+        </div>
+        <div class="col-12 col-lg-2 col-sm-6 col-xs-6 p-3 text-left">
+          <h4>Developer API</h4>
+          <ul class="navbar-nav fb-nav-link">
+            <li class="nav-item"><a href="https://bulk.bongatech.co.ke/docs/1.0/overview" class="nav-link">
+                <i class="fa fa-arrow-right"></i>Overview</a></li>
+            <li class="nav-item"><a href="https://bulk.bongatech.co.ke/docs/1.0/send-sms" class="nav-link">
+                <i class="fa fa-arrow-right"></i>SMS</a></li>
+            <li class="nav-item"><a href="https://bulk.bongatech.co.ke/docs/1.0/send-voice-sms" class="nav-link">
+                <i class="fa fa-arrow-right"></i>Voice SMS</a></li>
+            <li class="nav-item"><a href="https://bulk.bongatech.co.ke/docs/1.0/whatsapp/overview" class="nav-link">
+                <i class="fa fa-arrow-right"></i>Whatsapp</a></li>
+            <li class="nav-item"><a href="https://bulk.bongatech.co.ke/docs/1.0/smpp-docs" class="nav-link">
+                <i class="fa fa-arrow-right"></i>SMPP Docs</a></li>
+            <li class="nav-item"><a href="https://bulk.bongatech.co.ke/docs/1.0/sdk" class="nav-link">
+                <i class="fa fa-arrow-right"></i>SDK</a></li>
+            <li class="nav-item"><a href="https://bulk.bongatech.co.ke/docs/1.0/responses" class="nav-link">
+                <i class="fa fa-arrow-right"></i>API Responses</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Copyright Section -->
+  <div id="copyright" class="p-3 odd copyright">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-12 p-3 text-center text-lg-center">
+          <p>Copyright © <span id="copyright-year">2020</span>. All Rights Reserved.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  <!-- Modal Search Section -->
+  <div id="search" class="p-0 modal fade" role="dialog" aria-labelledby="search" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-slideout" role="document">
+      <div class="modal-content full">
+        <div class="modal-header" data-dismiss="modal"><i class="icon-close"></i></div>
+        <div class="modal-body">
+          <form class="row">
+            <div class="col-12 col-md-6 offset-md-3 p-0 align-self-center text-center">
+              <div class="row">
+                <div class="col-12 p-0 pb-3">
+                  <h2>Search Your Keywords?</h2>
+                  <div class="bar"></div>
+                  <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                    alteration in some form, by injected humour believable.</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12 p-0 input-group">
+                  <input type="text" class="form-control search-type-item" placeholder="Type and Hit Enter...">
+                  <button class="btn primary-button">SEARCH <i class="icon-magnifier"></i></button>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal Menu Navigation -->
+  <div id="menu" class="p-0 modal fade" role="dialog" aria-labelledby="menu" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-slideout" role="document">
+      <div class="modal-content full nav-modal">
+        <div class="modal-header" data-dismiss="modal"><i class="icon-close"></i></div>
+        <div class="menu modal-body">
+          <div class="row w-100">
+            <div class="items p-0 col-12 text-center"> </div>
+            <div class="contacts p-0 col-12 text-center"> </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Back To Top Scroll -->
+  <div id="scroll-to-top" class="scroll-to-top"> <a href="#slider" class="smooth-anchor"> <i class="icon-arrow-up"></i>
+    </a> </div>
+
+  <!--Scripts-->
+
+  <!--Maps API-->
+  <script>
+    // Initialize and add the map
+    function initMap() {
+      // The location of Uluru
+      let bongatech = { lat: -1.2613034359541369, lng: 36.79392331432503 };
+      // The map, centered at Uluru
+      let map = new google.maps.Map(document.getElementById("map"), {
+        zoom: 15,
+        center: bongatech,
+        // mapId: 'f5b6986b04c39697'
+      });
+      // console.log("This has happened");
+      // The marker, positioned at Haven
+      let marker = new google.maps.Marker({
+        position: bongatech,
+        map: map,
+      });
+    }
+  </script>
+  <script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAoLqxPy8VWhHXcZunTnTdIyuh94TSbn-g&map_ids=f5b6986b04c39697&callback=initMap">
+    </script>
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/jquery.easing.min.js"></script>
+  <script src="assets/js/ponyfill.min.js"></script>
+  <script src="assets/js/popper.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/slider.min.js"></script>
+  <script src="assets/js/gallery.min.js"></script>
+  <script src="assets/js/animation.min.js"></script>
+  <script src="assets/js/particles.min.js"></script>
+  <script src="assets/js/typed.js"></script>
+  <script src="assets/js/custom_script.js"></script>
+  <script src="assets/js/scroll.js"></script>
+  <script>
+    var typed = new Typed('.typed-words', {
+      strings: ["Reliable", "Secure", "Flexible", "Innovative"],
+      typeSpeed: 100,
+      backSpeed: 100,
+      backDelay: 4000,
+      startDelay: 100,
+      loop: true,
+      showCursor: false
+    });
+  </script>
+
+  <script>
+    //When the modal revel button is clicked
+    function scrollMagic() {
+      $('.scrolldown-wrapper').delay(500).fadeIn('slow', function () {
+        $('.scrolldown-wrapper').delay(2500).fadeOut();
+      });
+    }
+  </script>
+
+  <!--Cookie Concent-->
+
+  <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+  <script>
+    window.cookieconsent.initialise({
+      "palette": {
+        "popup": {
+          "background": "#d6040b"
+        },
+        "button": {
+          "background": "#db5151"
+        }
+      },
+      "theme": "classic",
+      "position": "bottom-right",
+      "content": {
+        "message": "This website (bongatech.co.ke) uses cookies. Allowing cookies provides the best experience.",
+        "dismiss": "Okay",
+        "href": "bongatech.co.ke"
+      }
+    });
+  </script>
+  <script>
+    document.querySelector('#copyright-year').innerText = new Date().getFullYear();
+  </script>
+</body>
+
+</html>
